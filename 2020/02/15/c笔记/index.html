@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>gfsj-open-source | You Blog</title>
-  <meta name="keywords" content=" 逆向 ">
-  <meta name="description" content="gfsj-open-source | You Blog">
+  <title>c笔记 | You Blog</title>
+  <meta name="keywords" content=" c ">
+  <meta name="description" content="c笔记 | You Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="gfsj-maze">
@@ -350,9 +350,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-gfsj-re-1-2" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-c笔记" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">gfsj-open-source</h1>
+        <h1 class="article-title">c笔记</h1>
     
     <div class="article-meta">
         
@@ -360,26 +360,26 @@
         
         <span class="book">
             
-                <a  data-rel="ctf">ctf</a>
+                <a  data-rel="编程语言">编程语言</a>
             
         </span>
         
         
         <span class="tag">
             
-            <a class="color3">逆向</a>
+            <a class="color2">c</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-02-12 17:08:50'>2020-02-08 15:12</time>
+        创建时间:<time class="date" title='更新时间: 2020-02-15 21:50:23'>2020-02-15 21:44</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:144</span>
+        <span>字数:0</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -398,7 +398,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#攻防世界-open-source"><span class="toc-text">攻防世界-open-source</span></a></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -414,22 +414,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="攻防世界-open-source"><a href="#攻防世界-open-source" class="headerlink" title="攻防世界-open-source"></a>攻防世界-open-source</h2><p>文件后缀名是.c，用Visual Studio或其他c语言编译器打开。</p>
-<p><img src="/images/re1-2/1.PNG" alt></p>
-<p>分析代码（atoi是把字符串转换成整形数的一个函数 )。</p>
-<p><img src="/images/re1-2/2.PNG" alt></p>
-<p>由该代码得出first等于16进制数cafe及10进制数。</p>
-<p><img src="/images/re1-2/3.PNG" alt></p>
-<p>由该代码得出second%17=8。</p>
-<p><img src="/images/re1-2/4.PNG" alt></p>
-<p>由该代码得出argv[3]=”h4cky0u”，即strlen(argv[3])=7。</p>
-<p><img src="/images/re1-2/5.PNG" alt></p>
-<p>根据该代码我们得出flag即是hash以16进制输出，随即写程序计算hash并以16进制输出。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%x"</span>,<span class="number">51966</span>*<span class="number">31337</span>+<span class="number">8</span>*<span class="number">11</span>+<span class="number">7</span><span class="number">-1615810207</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>最后得出结果：c0ffee</p>
-<p><img src="/images/re1-2/6.png" alt></p>
-
+        
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
     </div>
@@ -442,12 +427,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>gfsj-open-source</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">144</span></p>
+    <p><span class="copy-title">文章标题:</span>c笔记</p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">0</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="You">You</a></p>
-    <p><span class="copy-title">发布时间:</span>2020-02-08, 15:12:07</p>
-    <p><span class="copy-title">最后更新:</span>2020-02-12, 17:08:50</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/02/08/gfsj-re-1-2/" title="gfsj-open-source">http://yoursite.com/2020/02/08/gfsj-re-1-2/</a>
+    <p><span class="copy-title">发布时间:</span>2020-02-15, 21:44:51</p>
+    <p><span class="copy-title">最后更新:</span>2020-02-15, 21:50:23</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/02/15/c%E7%AC%94%E8%AE%B0/" title="c笔记">http://yoursite.com/2020/02/15/c%E7%AC%94%E8%AE%B0/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
